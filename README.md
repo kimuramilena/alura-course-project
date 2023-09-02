@@ -1,2 +1,2 @@
 # alura-course-project
-Another project I've been working on in my course.
+Another project I am working on for learning.
