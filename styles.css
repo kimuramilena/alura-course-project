@@ -147,6 +147,66 @@ margin: 8em 5em 2em 5em;
     margin-bottom: 2em;
 }
 
-
-
-
+@media screen and (max-width: 768px) {
+    .container{
+        display: block;
+        background-image: none;
+        height:auto;
+        margin: 4em 0 3em 0;
+    }
+    .primary-img{
+        width: 50vw;
+    }
+    .container-box{
+        margin: 8em 2em 2em 2em;
+    }
+    .secondary{
+        /* margin:3em 0 2em 0; */
+    }
+    .title-description{
+        margin: 0 2em 1em 2em;
+        font-size: 25px;
+    }
+    .secondary-img{
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+    .container-description{
+        margin: 1em;
+    }
+    .title-text {
+        margin: 0 2em;
+        font-size: 12px;
+    }
+    .container-combo{
+        margin: 1em;  
+    }
+    .combo-text {
+        margin: 0 2em;
+        font-size: 12px;
+    }
+    .container-third-button{
+        font-size: 12px;
+        display:block;
+        width:25%;
+        margin: 1.5em auto;
+    }
+    .third-img{
+        width: 70%;
+        margin: 3em auto 2em auto;
+        display: block;
+        float:none;
+    }
+    .fourth-img{
+        width: 70%;
+        margin: 5em auto 3em auto;
+        display: block;
+    }
+    .title-platform{
+        margin:5em auto 2em auto;
+        font-size: 25px;
+    }.platform-description{
+        font-size: 20px;
+    }
+}
